@@ -12,8 +12,8 @@ public class Dollar {
         return amount;
     }
 
-    void multiply(int multiplier) {
-        amount *= multiplier;
+    Dollar multiply(int multiplier) {
+        return new Dollar(amount * multiplier);
     }
 
 }
