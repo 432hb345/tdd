@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d18d5f9-cfb7-4731-9c56-bd8587938970" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/martak/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/martak/Dollar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/martak/MultiplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/martak/MultiplicationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,10 +27,12 @@
       <file leaf-file-name="MultiplicationTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/martak/MultiplicationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="315">
+              <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,8 +78,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/martak/MultiplicationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/martak/Dollar.java" />
+        <option value="$PROJECT_DIR$/src/test/java/martak/MultiplicationTest.java" />
       </list>
     </option>
   </component>
@@ -208,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MultiplicationTest.testEquality">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -226,6 +227,29 @@
       <option name="MAIN_CLASS_NAME" value="martak.MultiplicationTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MultiplicationTest.testEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="martak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="martak" />
+      <option name="MAIN_CLASS_NAME" value="martak.MultiplicationTest" />
+      <option name="METHOD_NAME" value="testEquality" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -273,8 +297,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.MultiplicationTest" />
+      <item itemvalue="JUnit.MultiplicationTest.testEquality" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MultiplicationTest.testEquality" />
         <item itemvalue="JUnit.MultiplicationTest" />
       </list>
     </recent_temporary>
@@ -289,7 +318,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540316142395</updated>
-      <workItem from="1540316147553" duration="2682000" />
+      <workItem from="1540316147553" duration="3206000" />
     </task>
     <servers />
   </component>
@@ -314,7 +343,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2682000" />
+    <option name="totallyTimeSpent" value="3206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1535" height="1204" extended-state="6" />
@@ -387,10 +416,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/martak/MultiplicationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="315">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
           </folding>
         </state>
       </provider>
