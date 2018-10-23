@@ -4,6 +4,7 @@ package martak;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 public class MultiplicationTest {
@@ -19,7 +20,8 @@ public class MultiplicationTest {
 
     @Test
     public void testEquality() {
-        assertEquals(new Dollar(5), new Dollar(5));
+        assertTrue(new Dollar(5).equals(new Dollar(5)));
+        assertFalse(new Dollar(5).equals(new Dollar(6)));
     }
 
 
