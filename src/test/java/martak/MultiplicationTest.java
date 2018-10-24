@@ -13,15 +13,16 @@ public class MultiplicationTest {
     public void shouldMultiply() {
         Dollar five = new Dollar(5);
         Dollar product = five.multiply(2);
-        assertEquals(10, product.getAmount());
+        assertEquals(new Dollar(10), product);
         product = five.multiply(3);
-        assertEquals(15, product.getAmount());
+        assertEquals(new Dollar(15), product);
     }
 
     @Test
     public void testEquality() {
-        assertTrue(new Dollar(5).equals(new Dollar(5)));
-        assertFalse(new Dollar(5).equals(new Dollar(6)));
+        Dollar five = new Dollar(5);
+        assertTrue(new Dollar(10).equals(five.multiply(2)));
+        assertFalse(new Dollar(10).equals(five.multiply(3)));
     }
 
 
