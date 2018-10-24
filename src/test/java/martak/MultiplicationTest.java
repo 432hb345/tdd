@@ -3,14 +3,12 @@ package martak;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class MultiplicationTest {
 
     @Test
-    public void shouldMultiply() {
+    public void shouldMultiplyDollar() {
         Dollar five = new Dollar(5);
         Dollar product = five.multiply(2);
         assertEquals(new Dollar(10), product);
@@ -21,8 +19,15 @@ public class MultiplicationTest {
     @Test
     public void testEquality() {
         Dollar five = new Dollar(5);
-        assertTrue(new Dollar(10).equals(five.multiply(2)));
-        assertFalse(new Dollar(10).equals(five.multiply(3)));
+        assertEquals(new Dollar(10), five.multiply(2));
+        assertEquals(new Dollar(15), five.multiply(3));
+    }
+
+    @Test
+    public void shouldMultiplyFranc() {
+        Franc five = new Franc(5);
+        assertEquals(new Franc(10), five.multiply(2));
+        assertEquals(new Franc(15), five.multiply(3));
     }
 
 

@@ -26,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultiplicationTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MultiplicationTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/martak/MultiplicationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="510">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,16 +38,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dollar.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dollar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/martak/Dollar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#87#88#0" expanded="true" />
                 <element signature="e#123#124#0" expanded="true" />
                 <element signature="e#221#222#0" expanded="true" />
                 <element signature="e#275#276#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Franc.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/martak/Franc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#98#99#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,6 +93,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/martak/MultiplicationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/martak/Dollar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/martak/Franc.java" />
       </list>
     </option>
   </component>
@@ -108,7 +124,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="136" />
     <option name="y" value="213" />
     <option name="width" value="1464" />
@@ -317,14 +333,11 @@
       <option name="presentableId" value="Default" />
       <updated>1540316142395</updated>
       <workItem from="1540316147553" duration="4265000" />
-      <workItem from="1540405882977" duration="1517000" />
+      <workItem from="1540405882977" duration="2459000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MultiplicationTest - 2018.10.23 at 20h 03m 21s.xml">
-      <configuration name="MultiplicationTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MultiplicationTest - 2018.10.23 at 20h 15m 56s.xml">
       <configuration name="MultiplicationTest" configurationId="JUnit" />
     </history-entry>
@@ -352,9 +365,12 @@
     <history-entry file="MultiplicationTest - 2018.10.24 at 21h 05m 46s.xml">
       <configuration name="MultiplicationTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MultiplicationTest - 2018.10.24 at 21h 35m 11s.xml">
+      <configuration name="MultiplicationTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5782000" />
+    <option name="totallyTimeSpent" value="6724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1535" height="1204" extended-state="6" />
@@ -440,25 +456,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/martak/MultiplicationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/martak/Dollar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#87#88#0" expanded="true" />
             <element signature="e#123#124#0" expanded="true" />
             <element signature="e#221#222#0" expanded="true" />
             <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/martak/Franc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/martak/MultiplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
