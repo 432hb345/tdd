@@ -21,6 +21,8 @@ public class MultiplicationTest {
         Dollar five = new Dollar(5);
         assertEquals(new Dollar(10), five.multiply(2));
         assertEquals(new Dollar(15), five.multiply(3));
+        assertTrue(new Franc(10).equals(new Franc(10)));
+        assertFalse(new Franc(10).equals(new Franc(115)));
     }
 
     @Test
